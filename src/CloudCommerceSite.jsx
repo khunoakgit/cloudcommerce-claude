@@ -28,7 +28,7 @@ const white = "#FFFFFF";
 // ---------- i18n ----------
 const T = {
   en: {
-    nav: { platform: "Platform", solutions: "Solutions", products: "Products", contact: "Contact", cta: "Talk to our team", navCta: "Contact Us" },
+    nav: { platform: "Platform", solutions: "Solutions", products: "Products", about: "About Us", contact: "Contact", cta: "Talk to our team", navCta: "Contact Us" },
     home: {
       eyebrow: "SHIP · SELL · SCALE",
       h1a: "Take your brand ",
@@ -88,6 +88,41 @@ const T = {
       sub: "Four platforms, one connected stack. Use one, or let them compound together.",
       learn: "Explore",
     },
+    about: {
+      eyebrow: "ABOUT US",
+      h1: "Bangkok-built, world-bound.",
+      sub: "CloudCommerce began as a Thai brand fighting to reach the world. Two decades later, we've turned everything we learned into the stack we wish we'd had — and opened it to every seller.",
+      profile: [
+        ["2002", "Founded"],
+        ["Bangkok", "Headquarters"],
+        ["70K+", "Sellers served"],
+        ["100+", "Markets reached"],
+      ],
+      storyLabel: "OUR STORY",
+      storyTitle: "A problem we lived, then solved.",
+      storyBody: [
+        "In 2002, we were a Thai brand with a product the world wanted and no way to reach it. Enterprise shipping rates were locked behind volume we didn't have. Every marketplace ran in its own silo. Finding customers abroad meant starting from zero in every market.",
+        "So we built our own way through — the logistics contracts, the technology, the demand engine. What started as survival became infrastructure. And we realized every Southeast Asian seller was hitting the exact same walls.",
+        "CloudCommerce is that infrastructure, opened up: one connected stack to ship, sell, and scale across borders — so the next brand doesn't have to build it alone.",
+      ],
+      timelineLabel: "JOURNEY",
+      timelineTitle: "Twenty years, one throughline.",
+      timeline: [
+        ["2002", "A Thai brand goes global", "We start exporting a homegrown product to the world — and hit every cross-border wall firsthand."],
+        ["2008", "Logistics, unlocked", "Years of volume earn the enterprise shipping rates and customs expertise most sellers never reach."],
+        ["2015", "One platform to run it all", "We build the technology to manage every order, channel, and customer from a single system."],
+        ["2020", "The stack becomes a product", "FastShip, CONNEX, KOLLAB, and CloudMall launch — the tools we built for ourselves, opened to every seller."],
+        ["Today", "The OS for cross-border commerce", "1M+ shipments, 70K+ sellers, 100+ countries — profitable, and growing."],
+      ],
+      valuesLabel: "WHAT WE BELIEVE",
+      valuesTitle: "What we stand for.",
+      values: [
+        ["Built from the trenches", "Every product solves a wall we hit ourselves. We ship what works, not theory."],
+        ["One connected stack", "Ship, sell, and scale on a single system — no re-platforming, no dozen vendors."],
+        ["Sellers first, always", "When our sellers grow, we grow. Value compounds on both sides of the relationship."],
+        ["Bangkok to the world", "Southeast Asian roots, global ambition. We meet sellers where they are and grow with them."],
+      ],
+    },
     contact: {
       eyebrow: "LET'S TALK",
       h1: "Let's take your brand further.",
@@ -106,7 +141,7 @@ const T = {
     footer: { tagline: "The operating system for cross-border e-commerce.", rights: "CloudCommerce Group. Bangkok-built, world-bound." },
   },
   th: {
-    nav: { platform: "แพลตฟอร์ม", solutions: "โซลูชัน", products: "ผลิตภัณฑ์", contact: "ติดต่อเรา", cta: "คุยกับทีมงาน", navCta: "ติดต่อเรา" },
+    nav: { platform: "แพลตฟอร์ม", solutions: "โซลูชัน", products: "ผลิตภัณฑ์", about: "เกี่ยวกับเรา", contact: "ติดต่อเรา", cta: "คุยกับทีมงาน", navCta: "ติดต่อเรา" },
     home: {
       eyebrow: "SHIP · SELL · SCALE",
       h1a: "พาแบรนด์ของคุณ",
@@ -165,6 +200,41 @@ const T = {
       h1: "ผลิตภัณฑ์ที่อยู่ในแพลตฟอร์ม",
       sub: "สี่แพลตฟอร์ม หนึ่งสแตกที่เชื่อมกัน ใช้ตัวเดียว หรือให้ทำงานทบต้นร่วมกัน",
       learn: "ดูเพิ่มเติม",
+    },
+    about: {
+      eyebrow: "เกี่ยวกับเรา",
+      h1: "สร้างในกรุงเทพฯ มุ่งสู่ตลาดโลก",
+      sub: "CloudCommerce เริ่มต้นจากแบรนด์ไทยที่ต่อสู้เพื่อไปให้ถึงตลาดโลก สองทศวรรษต่อมา เรานำทุกสิ่งที่เรียนรู้มาสร้างเป็นสแตกที่เราเองอยากมีตั้งแต่แรก — และเปิดให้ผู้ขายทุกคน",
+      profile: [
+        ["2002", "ก่อตั้ง"],
+        ["กรุงเทพฯ", "สำนักงานใหญ่"],
+        ["70K+", "ผู้ขายที่ดูแล"],
+        ["100+", "ตลาดที่เข้าถึง"],
+      ],
+      storyLabel: "เรื่องราวของเรา",
+      storyTitle: "ปัญหาที่เราเจอเอง แล้วลงมือแก้",
+      storyBody: [
+        "ในปี 2002 เราคือแบรนด์ไทยที่มีสินค้าซึ่งโลกต้องการ แต่ไม่มีทางไปถึง เรตค่าส่งระดับองค์กรถูกล็อกไว้หลังปริมาณที่เรายังไม่มี ทุกมาร์เก็ตเพลสแยกกันคนละระบบ และการหาลูกค้าต่างประเทศคือการเริ่มจากศูนย์ในทุกตลาด",
+        "เราจึงสร้างทางของเราเอง — สัญญาโลจิสติกส์ เทคโนโลยี และเครื่องมือสร้างดีมานด์ สิ่งที่เริ่มจากการเอาตัวรอดกลายเป็นโครงสร้างพื้นฐาน และเราพบว่าผู้ขายทั่วเอเชียตะวันออกเฉียงใต้เจอกำแพงเดียวกันทั้งหมด",
+        "CloudCommerce คือโครงสร้างพื้นฐานนั้นที่เปิดให้ทุกคน สแตกเดียวที่เชื่อมกันเพื่อส่ง ขาย และเติบโตข้ามพรมแดน — เพื่อให้แบรนด์รุ่นต่อไปไม่ต้องสร้างมันขึ้นมาเองอย่างโดดเดี่ยว",
+      ],
+      timelineLabel: "เส้นทางของเรา",
+      timelineTitle: "ยี่สิบปี หนึ่งเส้นทางเดียว",
+      timeline: [
+        ["2002", "แบรนด์ไทยสู่ตลาดโลก", "เราเริ่มส่งออกสินค้าไทยสู่ตลาดโลก — และเจอทุกกำแพงข้ามพรมแดนด้วยตัวเอง"],
+        ["2008", "ปลดล็อกโลจิสติกส์", "ปริมาณที่สั่งสมหลายปีทำให้เราได้เรตระดับองค์กรและความเชี่ยวชาญด้านศุลกากรที่ผู้ขายส่วนใหญ่เข้าไม่ถึง"],
+        ["2015", "แพลตฟอร์มเดียวรันทุกอย่าง", "เราสร้างเทคโนโลยีเพื่อจัดการทุกออเดอร์ ทุกช่องทาง และทุกลูกค้าจากระบบเดียว"],
+        ["2020", "สแตกกลายเป็นผลิตภัณฑ์", "FastShip, CONNEX, KOLLAB และ CloudMall เปิดตัว — เครื่องมือที่เราสร้างให้ตัวเอง เปิดให้ผู้ขายทุกคน"],
+        ["วันนี้", "ระบบปฏิบัติการสำหรับการค้าข้ามพรมแดน", "พัสดุกว่า 1 ล้านชิ้น ผู้ขายกว่า 70,000 ราย ครอบคลุมกว่า 100 ประเทศ — ทำกำไรและเติบโต"],
+      ],
+      valuesLabel: "สิ่งที่เราเชื่อ",
+      valuesTitle: "สิ่งที่เรายึดมั่น",
+      values: [
+        ["สร้างจากสนามจริง", "ทุกผลิตภัณฑ์แก้กำแพงที่เราเจอเอง เราสร้างสิ่งที่ใช้ได้จริง ไม่ใช่ทฤษฎี"],
+        ["สแตกเดียวที่เชื่อมกัน", "ส่ง ขาย และเติบโตบนระบบเดียว ไม่ต้องเปลี่ยนแพลตฟอร์ม ไม่ต้องมีผู้ให้บริการนับสิบเจ้า"],
+        ["ผู้ขายมาก่อนเสมอ", "เมื่อผู้ขายของเราโต เราก็โต มูลค่าทบต้นทั้งสองฝ่าย"],
+        ["จากกรุงเทพฯ สู่โลก", "รากเอเชียตะวันออกเฉียงใต้ ความมุ่งมั่นระดับโลก เราพร้อมอยู่ตรงจุดที่ผู้ขายอยู่และเติบโตไปด้วยกัน"],
+      ],
     },
     contact: {
       eyebrow: "มาคุยกัน",
@@ -449,7 +519,7 @@ function Nav() {
     window.addEventListener("scroll", on); return () => window.removeEventListener("scroll", on);
   }, []);
   const links = [
-    ["/platform", t.nav.platform], ["/solutions", t.nav.solutions], ["/products", t.nav.products],
+    ["/platform", t.nav.platform], ["/solutions", t.nav.solutions], ["/products", t.nav.products], ["/about", t.nav.about],
   ];
   const active = (p) => path === p || (p !== "/" && path.startsWith(p));
   return (
@@ -559,7 +629,7 @@ function Footer() {
             </div>
             <div>
               <div style={{ color: white, fontSize: 13, fontWeight: 700, letterSpacing: "0.06em", marginBottom: 12 }}>COMPANY</div>
-              {[["/platform", t.nav.platform], ["/solutions", t.nav.solutions], ["/contact", t.nav.contact]].map(([p, l]) => (
+              {[["/platform", t.nav.platform], ["/solutions", t.nav.solutions], ["/about", t.nav.about], ["/contact", t.nav.contact]].map(([p, l]) => (
                 <a key={p} onClick={() => go(p)} style={{ display: "block", cursor: "pointer", fontSize: 14, padding: "5px 0", color: "rgba(255,255,255,0.62)" }}>{l}</a>
               ))}
             </div>
@@ -1201,6 +1271,107 @@ function NotFound() {
   );
 }
 
+// ---------- ABOUT ----------
+function About() {
+  const { t } = useLang();
+  const a = t.about;
+  return (
+    <>
+      <section style={{ position: "relative", overflow: "hidden", padding: "clamp(56px,8vw,104px) 24px 64px" }}>
+        <div aria-hidden style={{ position: "absolute", inset: 0, background: `radial-gradient(55% 50% at 85% 0%, rgba(45,91,227,0.12), transparent 70%), radial-gradient(45% 40% at 6% 6%, rgba(62,207,178,0.12), transparent 70%)` }} />
+        <div style={{ maxWidth: 1000, margin: "0 auto", position: "relative" }}>
+          <Reveal><Eyebrow>{a.eyebrow}</Eyebrow></Reveal>
+          <Reveal delay={60}><h1 style={{ fontSize: "clamp(34px,5vw,60px)", lineHeight: 1.05, letterSpacing: "-0.03em", fontWeight: 800, color: C.ink, margin: "0 0 20px" }}>{a.h1}</h1></Reveal>
+          <Reveal delay={120}><p style={{ fontSize: "clamp(16px,1.7vw,20px)", lineHeight: 1.55, color: C.mute, maxWidth: 640, margin: 0 }}>{a.sub}</p></Reveal>
+        </div>
+      </section>
+
+      {/* at a glance */}
+      <Section pad={0}>
+        <Reveal>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(160px,1fr))", border: `1px solid ${C.line}`, borderRadius: 16, overflow: "hidden", background: white }}>
+            {a.profile.map(([value, label], i) => (
+              <div key={i} style={{ padding: "26px 24px", borderRight: i < a.profile.length - 1 ? `1px solid ${C.line}` : "none", textAlign: "center" }}>
+                <div style={{ fontSize: 28, fontWeight: 800, color: C.navy, letterSpacing: "-0.02em" }}>{value}</div>
+                <div style={{ fontSize: 13, color: C.mute, marginTop: 6 }}>{label}</div>
+              </div>
+            ))}
+          </div>
+        </Reveal>
+      </Section>
+
+      {/* our story */}
+      <Section>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(280px,1fr))", gap: 40, alignItems: "start" }}>
+          <Reveal>
+            <div>
+              <Eyebrow>{a.storyLabel}</Eyebrow>
+              <h2 style={{ fontSize: "clamp(26px,3.4vw,40px)", fontWeight: 800, letterSpacing: "-0.02em", color: C.ink, margin: "0 0 14px" }}>{a.storyTitle}</h2>
+              <div style={{ height: 2, width: 46, background: C.teal }} />
+            </div>
+          </Reveal>
+          <Reveal delay={100}>
+            <div style={{ display: "grid", gap: 18 }}>
+              {a.storyBody.map((para, i) => (
+                <p key={i} style={{ fontSize: 17, lineHeight: 1.7, color: i === 0 ? C.navy : C.mute, fontWeight: i === 0 ? 600 : 400, margin: 0 }}>{para}</p>
+              ))}
+            </div>
+          </Reveal>
+        </div>
+      </Section>
+
+      {/* journey timeline */}
+      <Section bg={C.cream2}>
+        <Reveal>
+          <div style={{ textAlign: "center", marginBottom: 44 }}>
+            <Eyebrow>{a.timelineLabel}</Eyebrow>
+            <h2 style={{ fontSize: "clamp(26px,3.4vw,40px)", fontWeight: 800, letterSpacing: "-0.02em", color: C.ink, margin: 0 }}>{a.timelineTitle}</h2>
+          </div>
+        </Reveal>
+        <div style={{ maxWidth: 720, margin: "0 auto" }}>
+          {a.timeline.map(([year, title, body], i) => (
+            <Reveal key={i} delay={i * 70}>
+              <div style={{ display: "grid", gridTemplateColumns: "84px 1fr", gap: 20 }}>
+                <div style={{ textAlign: "right", paddingTop: 1 }}>
+                  <div style={{ fontSize: 18, fontWeight: 800, color: C.tealDeep }}>{year}</div>
+                </div>
+                <div style={{ position: "relative", borderLeft: `2px dashed ${C.line}`, paddingLeft: 26, paddingBottom: i < a.timeline.length - 1 ? 34 : 0 }}>
+                  <span style={{ position: "absolute", left: -8, top: 3, width: 13, height: 13, borderRadius: 4, background: C.teal, border: `2px solid ${C.cream2}` }} />
+                  <div style={{ fontSize: 19, fontWeight: 800, color: C.navy, marginBottom: 7 }}>{title}</div>
+                  <p style={{ fontSize: 15, lineHeight: 1.6, color: C.mute, margin: 0 }}>{body}</p>
+                </div>
+              </div>
+            </Reveal>
+          ))}
+        </div>
+      </Section>
+
+      {/* values */}
+      <Section>
+        <Reveal>
+          <div style={{ marginBottom: 40 }}>
+            <Eyebrow>{a.valuesLabel}</Eyebrow>
+            <h2 style={{ fontSize: "clamp(26px,3.4vw,40px)", fontWeight: 800, letterSpacing: "-0.02em", color: C.ink, margin: 0 }}>{a.valuesTitle}</h2>
+          </div>
+        </Reveal>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(260px,1fr))", gap: 20 }}>
+          {a.values.map(([title, body], i) => (
+            <Reveal key={i} delay={i * 70}>
+              <div style={{ background: white, border: `1px solid ${C.line}`, borderRadius: 16, padding: "28px 26px", height: "100%" }}>
+                <div style={{ width: 30, height: 4, borderRadius: 3, background: [C.blue, C.teal, C.tealDeep, C.navy][i % 4], marginBottom: 16 }} />
+                <div style={{ fontSize: 19, fontWeight: 800, color: C.navy, marginBottom: 10 }}>{title}</div>
+                <p style={{ fontSize: 15, lineHeight: 1.6, color: C.mute, margin: 0 }}>{body}</p>
+              </div>
+            </Reveal>
+          ))}
+        </div>
+      </Section>
+
+      <FinalCTA />
+    </>
+  );
+}
+
 // ---------- app shell ----------
 export default function App() {
   const [route, setRoute] = useState(parseHash());
@@ -1227,6 +1398,7 @@ export default function App() {
   else if (path === "/solutions") page = <Solutions />;
   else if (path === "/products") page = <ProductsIndex />;
   else if (path.startsWith("/products/")) page = <ProductPage id={path.split("/")[2]} />;
+  else if (path === "/about") page = <About />;
   else if (path === "/contact") page = <Contact />;
   else page = <NotFound />;
 
