@@ -28,7 +28,7 @@ const white = "#FFFFFF";
 // ---------- i18n ----------
 const T = {
   en: {
-    nav: { platform: "Platform", solutions: "Solutions", products: "Products", contact: "Contact", cta: "Talk to our team" },
+    nav: { platform: "Platform", solutions: "Solutions", products: "Products", contact: "Contact", cta: "Talk to our team", navCta: "Contact Us" },
     home: {
       eyebrow: "SHIP · SELL · SCALE",
       h1a: "Take your brand ",
@@ -106,7 +106,7 @@ const T = {
     footer: { tagline: "The operating system for cross-border e-commerce.", rights: "CloudCommerce Group. Bangkok-built, world-bound." },
   },
   th: {
-    nav: { platform: "แพลตฟอร์ม", solutions: "โซลูชัน", products: "ผลิตภัณฑ์", contact: "ติดต่อเรา", cta: "คุยกับทีมงาน" },
+    nav: { platform: "แพลตฟอร์ม", solutions: "โซลูชัน", products: "ผลิตภัณฑ์", contact: "ติดต่อเรา", cta: "คุยกับทีมงาน", navCta: "ติดต่อเรา" },
     home: {
       eyebrow: "SHIP · SELL · SCALE",
       h1a: "พาแบรนด์ของคุณ",
@@ -472,7 +472,7 @@ function Nav() {
             cursor: "pointer", fontFamily: "inherit", fontSize: 13, fontWeight: 700, letterSpacing: "0.04em",
             padding: "7px 12px", borderRadius: 8, border: `1px solid ${C.line}`, background: white, color: C.navy,
           }}>{lang === "en" ? "TH" : "EN"}</button>
-          <div style={{ marginLeft: 6 }}><Btn onClick={() => go("/contact")}>{t.nav.cta}</Btn></div>
+          <div style={{ marginLeft: 6 }}><Btn onClick={() => go("/contact")}>{t.nav.navCta}</Btn></div>
         </nav>
         <button className="cc-burger" onClick={() => setOpen(!open)} aria-label="Menu" style={{
           display: "none", cursor: "pointer", background: "none", border: "none", padding: 8,
@@ -489,7 +489,7 @@ function Nav() {
           ))}
           <div style={{ display: "flex", gap: 10, marginTop: 12 }}>
             <button onClick={() => setLang(lang === "en" ? "th" : "en")} style={{ cursor: "pointer", fontFamily: "inherit", fontSize: 14, fontWeight: 700, padding: "10px 16px", borderRadius: 8, border: `1px solid ${C.line}`, background: white, color: C.navy }}>{lang === "en" ? "ไทย" : "EN"}</button>
-            <div style={{ flex: 1 }}><Btn onClick={() => { go("/contact"); setOpen(false); }}>{t.nav.cta}</Btn></div>
+            <div style={{ flex: 1 }}><Btn onClick={() => { go("/contact"); setOpen(false); }}>{t.nav.navCta}</Btn></div>
           </div>
         </div>
       )}
